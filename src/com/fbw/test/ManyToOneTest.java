@@ -15,8 +15,8 @@ public class ManyToOneTest {
         List<Product> products=productMapper.listProduct();
         System.out.println("manytoone");
         for (Product product : products){
-            System.out.println(product);
-
+            System.out.print(product);
+            System.out.println(product.getCategory());
         }
         System.out.println("manytoone");
     }

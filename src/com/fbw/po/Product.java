@@ -8,4 +8,13 @@ public class Product {
     private String name;
     private float price;
     private Category category;
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
